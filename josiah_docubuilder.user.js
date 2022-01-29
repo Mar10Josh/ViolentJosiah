@@ -3,7 +3,7 @@
 // @namespace   Editors
 // @match       *://*/*
 // @grant       none
-// @version     1.2b
+// @version     1.2
 // @author      Josiah
 // @description Josiah's DocuBuilder builds anything on the current document. This also works on HTML files!
 // ==/UserScript==
