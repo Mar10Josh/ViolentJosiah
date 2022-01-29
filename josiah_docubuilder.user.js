@@ -3,7 +3,7 @@
 // @namespace   Editors
 // @match       *://*/*
 // @grant       none
-// @version     1.2
+// @version     1.3
 // @author      Josiah
 // @description Josiah's DocuBuilder builds anything on the current document. This also works on HTML files!
 // ==/UserScript==
@@ -23,7 +23,7 @@ function buildermain() {
     mynew = document.createElement(tobuild)
     myhtml = prompt("Text to display...")
     mynew.innerHTML = is(!(myhtml == null || myhtml == ''), myhtml, "Something")
-    document.body.insertBefore(mynew, document.body.lastChild)
+    document.body.appendChild(mynew)
     alert("Done! Check the bottom of the page!")
   }
 }
